@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Montserrat;
+  src: url("./assets/fonts/Montserrat-Regular.ttf");
+}
+
+.main {
+  @apply fixed top-[70px] left-[18rem] w-[calc(100%-18rem)] h-[calc(100%-70px)] bg-slate-50 p-4 overflow-y-auto max-xl:left-0 max-xl:w-full transition-[left] delay-150;
+}
+
+.sidebar {
+  @apply fixed top-0 left-0 w-[18rem] h-screen flex flex-col items-start justify-between px-10 py-4 bg-white z-10;
+}
+
+.sidebar-hidden {
+  @apply w-[18rem] h-screen flex flex-col items-start justify-between px-10 py-4 max-xl:hidden z-10;
+}
+
+.system-used {
+  @apply h-[100px] w-[100px] border-8 border-l-[#c2f3ff] border-r-[#149cbd] border-b-[#149cbd] border-t-[#149cbd] grid place-items-center m-auto rounded-full text-xl font-[800] text-[#149cbd];
+}

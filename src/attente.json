@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "65ac1fabec1f8cd954ce81d9",
+    "staff": "6474a37fd1afb6ed433696c1",
+    "prestation": {
+      "typePrestation": null,
+      "_id": "657c85d509363097a28a7bb7",
+      "hospital": "646f73029e5f57057213d314",
+      "typeExamen": "657c4cfef39ecec713acf12f",
+      "departmentId": "64749918d1afb6ed43369685",
+      "name": "Ecbue",
+      "tarif_particulier": 1000,
+      "tarif_societe": 1000,
+      "__v": 0
+    },
+    "quantite": 1,
+    "state": true,
+    "paid": false,
+    "type": "Laboratoire",
+    "createdAt": "2024-01-20T19:31:55.439Z",
+    "updatedAt": "2024-01-20T19:31:55.439Z",
+    "__v": 0
+  },
+  {
+    "_id": "65ac1fabec1f8cd954ce81d8",
+    "staff": "6474a37fd1afb6ed433696c1",
+    "prestation": {
+      "typePrestation": null,
+      "_id": "657c73916389fab9d2b5279d",
+      "hospital": "646f73029e5f57057213d314",
+      "typeExamen": "657c4cfef39ecec713acf12f",
+      "departmentId": "64749918d1afb6ed43369685",
+      "name": "Ecb",
+      "tarif_particulier": 2500,
+      "tarif_societe": 2500,
+      "__v": 0
+    },
+    "quantite": 1,
+    "state": true,
+    "paid": false,
+    "type": "Laboratoire",
+    "createdAt": "2024-01-20T19:31:55.439Z",
+    "updatedAt": "2024-01-20T19:31:55.439Z",
+    "__v": 0
+  },
+  {
+    "_id": "65ac2122ec1f8cd954ce81ea",
+    "staff": "6474a37fd1afb6ed433696c1",
+    "prestation": {
+      "_id": "65a68147e108f8cfe82a874a",
+      "hospital": "646f73029e5f57057213d314",
+      "typeExamen": null,
+      "typePrestation": "Radiologie",
+      "departmentId": "64e3e6b393cb5294257e54e6",
+      "name": "RADIO",
+      "tarif_particulier": 100000,
+      "tarif_societe": 150000,
+      "__v": 0
+    },
+    "quantite": 1,
+    "state": true,
+    "paid": false,
+    "type": "Radiologie",
+    "createdAt": "2024-01-20T19:38:10.686Z",
+    "updatedAt": "2024-01-20T19:38:10.686Z",
+    "__v": 0
+  }
+]
